@@ -1,3 +1,9 @@
-steps:
-- name: busybox
-  args: ['echo', 'Hello World']
+{
+  "steps": [
+    {
+      "name": "busybox",
+      "args": ["echo", "Hello World"]
+    }
+  ],
+  "logging": "CLOUD_LOGGING_ONLY"
+}
